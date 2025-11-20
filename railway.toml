@@ -1,0 +1,6 @@
+[build]
+builder = "dockerfile"
+
+[deploy]
+port = 8080
+startCommand = "apache2-foreground"
